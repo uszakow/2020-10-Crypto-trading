@@ -1,0 +1,14 @@
+@import './../../../variables';
+
+.menu-nav {
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+
+    @media (min-width: $sm) {
+        width: 200px;
+    }
+    @media (min-width: $md) {
+        width: 220px;
+    }
+}

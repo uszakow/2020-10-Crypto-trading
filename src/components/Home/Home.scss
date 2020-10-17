@@ -1,0 +1,12 @@
+@import './../../variables';
+
+.home-wrap{
+    position: relative;
+    overflow: hidden;
+}
+.home-content{
+    width: 100%;
+    min-height: 520px;
+    max-height: 700px;
+    position: relative;
+}

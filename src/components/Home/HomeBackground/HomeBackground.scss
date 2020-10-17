@@ -1,0 +1,39 @@
+@import "./../../../variables";
+
+.home-layer {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    position: absolute;
+}
+
+.home-oblique {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    &-background {
+        position: absolute;
+        border-radius: 50px;
+        transform: rotate(14deg);
+        transform-origin: right bottom;
+    }
+    &-background1 {
+        background-color: #4250bf;
+        width: 80%;
+        height: 120%;
+        left: -40%;
+        bottom: 30px;
+        box-shadow: 0 0 30px black;
+    }
+    &-background2 {
+        background-color: #3947b6;
+        width: 110%;
+        min-width: 700px;
+        height: 100%;
+        left: -30%;
+        top: -30%;
+    }
+}
