@@ -8,12 +8,14 @@ import {
 } from 'react-router-dom';
 
 import Menu from './components/Menu/Menu';
+import SocialButtons from './components/SocialButtons/SocialButtons';
 import Home from './components/Home/Home';
 
 function App() {
   return (
     <Router>
       <Menu />
+      <SocialButtons />
 
       <Switch>
         <Route exact path="/" render={Home} />

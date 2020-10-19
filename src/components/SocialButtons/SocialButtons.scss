@@ -1,0 +1,17 @@
+@import "./../../variables";
+
+.socialbuttons-wrap {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 4vh;
+    right: 10px;
+    z-index: 2;
+}
+
+@media (min-width: $xl) {
+    .socialbuttons-wrap {
+        right: 96px;
+        bottom: 1vh;
+    }
+}

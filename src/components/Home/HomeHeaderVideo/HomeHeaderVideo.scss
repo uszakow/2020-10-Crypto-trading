@@ -1,19 +1,59 @@
 @import "./../../../variables";
 
 .home-video {
+    width: 300px;
+    max-width: 100%;
     display: inline-flex;
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
     position: relative;
-
-    &-poster {
-        position: absolute;
+    video {
         width: 100%;
-        height: 100%;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+    }
+}
+
+.home-video-playbutton {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    button {
+        width: 63px;
+        height: 63px;
+        background-color: #38a5db;
+        border-radius: 50%;
+        border: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        span {
+            display: block;
+            border-left: 16px solid white;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            margin-left: 5px;
         }
+    }
+}
+.home-video-playbutton.hide {
+    display: none;
+}
+
+@media (min-width: $sm) {
+    .home-video {
+        width: 500px;
+    }
+}
+@media (min-width: $md) {
+    .home-video {
+        width: 600px;
+    }
+}
+@media (min-width: $lg) {
+    .home-video {
+        max-width: 55%;
     }
 }

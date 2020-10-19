@@ -7,10 +7,63 @@
     line-height: 32px;
     letter-spacing: 0.05em;
 }
+.home-header-label {
+    font-size: 14px;
+    line-height: 26px;
+    color: white;
+    opacity: 0.7;
+}
+.home-header-form {
+    display: flex;
+    flex-direction: column;
+
+    input,
+    button {
+        height: 48px;
+        width: 100%;
+        border: 0;
+        border-radius: 25px;
+        margin: 8px 0;
+    }
+    input {
+        padding: 13px 20px;
+    }
+    button {
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        background-color: #38a5db;
+        color: white;
+        padding: 0;
+        cursor: pointer;
+    }
+}
 
 @media (min-width: $md) {
     .home-header-title {
         font-size: 40px;
         line-height: 56px;
+    }
+    .home-header-label {
+        font-size: 18px;
+    }
+    .home-header-form {
+        flex-direction: row;
+        background-color: white;
+        border-radius: 25px;
+        margin: 20px 0;
+        input,
+        button {
+            margin: 0;
+        }
+        button {
+            width: 154px;
+            letter-spacing: 0;
+        }
+    }
+}
+@media (min-width: $lg){
+    .home-headertext-wrap{
+        max-width: 40%;
     }
 }
