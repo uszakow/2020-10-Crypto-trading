@@ -19,7 +19,7 @@ function App() {
         <SocialButtons />
 
         <Switch>
-          <Route exact path="/" render={Home} />
+          <Route exact path="/"><Home /></Route>
           <Route path="/team">
             Team
         </Route>

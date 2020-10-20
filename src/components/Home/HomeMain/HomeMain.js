@@ -3,10 +3,10 @@ import './HomeMain.scss';
 
 import Team from './Team/Team';
 
-function HomeMain() {
+function HomeMain({ teamArr, setSelectedTeamMember }) {
     return (
-        <>
-            <Team />
+        <>            
+            <Team teamArr={teamArr} setSelectedTeamMember={setSelectedTeamMember} />
         </>
     )
 }

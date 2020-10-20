@@ -4,7 +4,7 @@ import './HomeButtonDown.scss';
 function HomeButtonDown() {
     return (
         <div className="home-buttondown">
-            <a href="#"><span /></a>
+            <a href="#home-team-title"><span /></a>
         </div>
     )
 }

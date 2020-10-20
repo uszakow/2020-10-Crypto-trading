@@ -1,27 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './Team.scss';
 
-import axios from 'axios';
-
 import TeamItem from './TeamItem/TeamItem';
 
-function Team() {
-    const [teamArr, setTeam] = useState([]);
+function Team({ teamArr, setSelectedTeamMember }) {
     const [shift, setShift] = useState('1');
-
-    useEffect(() => {
-        try {
-            const getTeamFromServer = async () => {
-                const url = "http://localhost:3001/team";
-                const res = await axios.get(url);
-
-                setTeam(res.data)
-            }
-            getTeamFromServer();
-        } catch (e) {
-            console.log(e);
-        }
-    }, [])
 
     useEffect(() => {
         const teamwrap = document.querySelector('.home-team-wrap');
@@ -40,10 +23,10 @@ function Team() {
     if (teamArr.length) {
         return (
             <>
-                <h2 className="home-team-title">Team</h2>
+                <h2 className="home-team-title" id="home-team-title">Team</h2>
                 <div className="home-team-wrap">
                     {teamArr.map((item, index) => (
-                        <TeamItem key={index} item={item} />
+                        <TeamItem key={index} item={item} setSelectedTeamMember={setSelectedTeamMember} />
                     ))}
                 </div>
                 <div className="home-teamwrap-controller">
