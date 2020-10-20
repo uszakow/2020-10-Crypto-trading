@@ -1,0 +1,70 @@
+@import "./../../../../variables";
+
+.home-team-title {
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    color: #1c1f83;
+    text-align: center;
+    margin: 38px auto 20px;
+}
+.home-team-wrap {
+    display: flex;
+    padding: 0 16px;
+    margin-bottom: 48px;
+    width: 170vw;
+    transform: translateX(0vw);
+    transition: 0.5s;
+}
+.home-team-wrap.home-team-shift {
+    transform: translateX(-70vw);
+}
+.home-teamwrap-controller {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0;
+    input {
+        display: none;
+    }
+    label {
+        width: 8px;
+        height: 8px;
+        display: block;
+        border-radius: 50%;
+        margin: 4px;
+        background-color: #c4c4c4;
+    }
+    input:checked + label {
+        background-color: #4250bf;
+    }
+}
+
+@media (min-width: $sm) {
+    .home-team-wrap {
+        width: 160vw;
+    }
+    .home-team-wrap.home-team-shift {
+        transform: translateX(-60vw);
+    }
+}
+@media (min-width: $lg) {
+    .home-team-wrap {
+        padding: 0 40px;
+        margin-bottom: 88px;
+    }
+    .home-teamwrap-controller {
+        display: none;
+    }
+    .home-team-wrap {
+        width: 100vw;
+    }
+    .home-team-wrap.home-team-shift {
+        transform: translateX(0vw);
+    }
+}
+@media (min-width: $max-width) {
+    .home-team-wrap {
+        padding: 0 134px;
+    }
+}

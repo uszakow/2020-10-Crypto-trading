@@ -14,18 +14,20 @@ import Home from './components/Home/Home';
 function App() {
   return (
     <Router>
-      <Menu />
-      <SocialButtons />
+      <div className="app-wrap">
+        <Menu />
+        <SocialButtons />
 
-      <Switch>
-        <Route exact path="/" render={Home} />
-        <Route path="/team">
-          Team
+        <Switch>
+          <Route exact path="/" render={Home} />
+          <Route path="/team">
+            Team
         </Route>
-        <Route path="/contact">
-          Contact
+          <Route path="/contact">
+            Contact
         </Route>
-      </Switch>
+        </Switch>
+      </div>
     </Router>
   );
 }

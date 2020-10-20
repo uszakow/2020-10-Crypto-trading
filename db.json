@@ -1,5 +1,73 @@
 {
-  "emails": [
-   
+  "emails": [],
+  "team": [
+    {
+      "id": 1,
+      "name": "Edgar",
+      "surname": "Morrison",
+      "jobtitle": "CEO",
+      "photo": "morrison.png",
+      "shorttext": "Having used discount toner cartriges for twenty years, there have been a lot of changes in the toner...",
+      "fulltext": "Cupidatat sit fugiat et officia veniam culpa magna anim magna laboris reprehenderit. Aliquip magna in veniam non do nostrud id voluptate qui Lorem non officia magna aliquip. Sint ea dolore deserunt reprehenderit exercitation nostrud proident pariatur qui excepteur do labore amet. \nEt pariatur laborum dolor anim consectetur magna est sint ut non do adipisicing cillum. Cillum incididunt laboris nisi amet. Proident incididunt esse qui culpa nisi consectetur pariatur incididunt laboris mollit deserunt qui labore esse. Ullamco cupidatat culpa adipisicing do in magna fugiat. Ad cupidatat laboris sint deserunt deserunt aliquip enim. Esse consectetur cupidatat anim pariatur et. Culpa sint ut amet laborum magna in laboris eiusmod id excepteur occaecat. \nUt laboris esse quis Lorem ad. Qui incididunt aliquip laboris est. Fugiat esse commodo Lorem deserunt ea eu ex ex proident ex Lorem ex commodo aute. \nAliqua ea adipisicing ex do deserunt Lorem excepteur aliqua anim dolor. Officia consequat nisi Lorem esse consequat.",
+      "links": [
+        {
+          "Facebook": "https://www.facebook.com/"
+        },
+        {
+          "LinkedIn": "https://www.linkedin.com/"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mae",
+      "surname": "Martin",
+      "jobtitle": "CTO",
+      "photo": "martin.png",
+      "shorttext": "Having used discount toner cartriges for twenty years, there have been a lot of changes in the toner...",
+      "fulltext": "Cupidatat sit fugiat et officia veniam culpa magna anim magna laboris reprehenderit. Aliquip magna in veniam non do nostrud id voluptate qui Lorem non officia magna aliquip. Sint ea dolore deserunt reprehenderit exercitation nostrud proident pariatur qui excepteur do labore amet. \nEt pariatur laborum dolor anim consectetur magna est sint ut non do adipisicing cillum. Cillum incididunt laboris nisi amet. Proident incididunt esse qui culpa nisi consectetur pariatur incididunt laboris mollit deserunt qui labore esse. Ullamco cupidatat culpa adipisicing do in magna fugiat. Ad cupidatat laboris sint deserunt deserunt aliquip enim. Esse consectetur cupidatat anim pariatur et. Culpa sint ut amet laborum magna in laboris eiusmod id excepteur occaecat. \nUt laboris esse quis Lorem ad. Qui incididunt aliquip laboris est. Fugiat esse commodo Lorem deserunt ea eu ex ex proident ex Lorem ex commodo aute. \nAliqua ea adipisicing ex do deserunt Lorem excepteur aliqua anim dolor. Officia consequat nisi Lorem esse consequat.",
+      "links": [
+        {
+          "Facebook": "https://www.facebook.com/"
+        },
+        {
+          "LinkedIn": "https://www.linkedin.com/"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "David",
+      "surname": "Banks",
+      "jobtitle": "CFO",
+      "photo": "banks.png",
+      "shorttext": "Having used discount toner cartriges for twenty years, there have been a lot of changes in the toner...",
+      "fulltext": "Cupidatat sit fugiat et officia veniam culpa magna anim magna laboris reprehenderit. Aliquip magna in veniam non do nostrud id voluptate qui Lorem non officia magna aliquip. Sint ea dolore deserunt reprehenderit exercitation nostrud proident pariatur qui excepteur do labore amet. \nEt pariatur laborum dolor anim consectetur magna est sint ut non do adipisicing cillum. Cillum incididunt laboris nisi amet. Proident incididunt esse qui culpa nisi consectetur pariatur incididunt laboris mollit deserunt qui labore esse. Ullamco cupidatat culpa adipisicing do in magna fugiat. Ad cupidatat laboris sint deserunt deserunt aliquip enim. Esse consectetur cupidatat anim pariatur et. Culpa sint ut amet laborum magna in laboris eiusmod id excepteur occaecat. \nUt laboris esse quis Lorem ad. Qui incididunt aliquip laboris est. Fugiat esse commodo Lorem deserunt ea eu ex ex proident ex Lorem ex commodo aute. \nAliqua ea adipisicing ex do deserunt Lorem excepteur aliqua anim dolor. Officia consequat nisi Lorem esse consequat.",
+      "links": [
+        {
+          "Facebook": "https://www.facebook.com/"
+        },
+        {
+          "LinkedIn": "https://www.linkedin.com/"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Frederick",
+      "surname": "Parsons",
+      "jobtitle": "COO",
+      "photo": "parsons.png",
+      "shorttext": "Having used discount toner cartriges for twenty years, there have been a lot of changes in the toner...",
+      "fulltext": "Cupidatat sit fugiat et officia veniam culpa magna anim magna laboris reprehenderit. Aliquip magna in veniam non do nostrud id voluptate qui Lorem non officia magna aliquip. Sint ea dolore deserunt reprehenderit exercitation nostrud proident pariatur qui excepteur do labore amet. \nEt pariatur laborum dolor anim consectetur magna est sint ut non do adipisicing cillum. Cillum incididunt laboris nisi amet. Proident incididunt esse qui culpa nisi consectetur pariatur incididunt laboris mollit deserunt qui labore esse. Ullamco cupidatat culpa adipisicing do in magna fugiat. Ad cupidatat laboris sint deserunt deserunt aliquip enim. Esse consectetur cupidatat anim pariatur et. Culpa sint ut amet laborum magna in laboris eiusmod id excepteur occaecat. \nUt laboris esse quis Lorem ad. Qui incididunt aliquip laboris est. Fugiat esse commodo Lorem deserunt ea eu ex ex proident ex Lorem ex commodo aute. \nAliqua ea adipisicing ex do deserunt Lorem excepteur aliqua anim dolor. Officia consequat nisi Lorem esse consequat.",
+      "links": [
+        {
+          "Facebook": "https://www.facebook.com/"
+        },
+        {
+          "LinkedIn": "https://www.linkedin.com/"
+        }
+      ]
+    }
   ]
 }

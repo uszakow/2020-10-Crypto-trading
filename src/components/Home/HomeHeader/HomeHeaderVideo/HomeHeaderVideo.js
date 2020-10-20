@@ -1,7 +1,7 @@
 import React from 'react';
 import './HomeHeaderVideo.scss';
 
-import video from './../../../video/Muxia.mp4';
+import video from './../../../../video/Muxia.mp4';
 
 function HomeHeaderVideo() {
     const playVideo = () => {
