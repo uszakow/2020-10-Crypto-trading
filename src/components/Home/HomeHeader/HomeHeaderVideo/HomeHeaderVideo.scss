@@ -1,10 +1,10 @@
 @import "./../../../../variables";
 
 .home-video {
-    width: 300px;
+    width: px(300);
     max-width: 100%;
     display: inline-flex;
-    border-radius: 10px;
+    border-radius: px(10);
     overflow: hidden;
     position: relative;
     video {
@@ -20,8 +20,8 @@
     align-items: center;
     position: absolute;
     button {
-        width: 63px;
-        height: 63px;
+        width: px(63);
+        height: px(63);
         background-color: #38a5db;
         border-radius: 50%;
         border: 0;
@@ -31,10 +31,10 @@
         cursor: pointer;
         span {
             display: block;
-            border-left: 16px solid white;
-            border-top: 10px solid transparent;
-            border-bottom: 10px solid transparent;
-            margin-left: 5px;
+            border-left: px(16) solid white;
+            border-top: px(10) solid transparent;
+            border-bottom: px(10) solid transparent;
+            margin-left: px(5);
         }
     }
 }
@@ -44,12 +44,12 @@
 
 @media (min-width: $sm) {
     .home-video {
-        width: 500px;
+        width: px(500);
     }
 }
 @media (min-width: $md) {
     .home-video {
-        width: 600px;
+        width: px(600);
     }
 }
 @media (min-width: $lg) {

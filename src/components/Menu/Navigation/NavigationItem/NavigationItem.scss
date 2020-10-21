@@ -1,11 +1,11 @@
 @import "./../../../../variables";
 
 .menu-navigationitem {
-    font-size: 18px;
+    font-size: px(18);
     color: #1c2085;
     text-decoration: none;
     letter-spacing: 0.06em;
-    padding: 8px 4px 6px;
+    padding: px(8) px(4) px(6);
 }
 .menu-navigationitem-active {
     border-bottom: 2px solid #5454d4;

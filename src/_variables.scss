@@ -4,3 +4,8 @@ $md: 768px;
 $lg: 992px;
 $xl: 1200px;
 $max-width: 1440px;
+
+//function px to rem
+@function px($size) {
+    @return ($size / 16) * 1rem;
+}

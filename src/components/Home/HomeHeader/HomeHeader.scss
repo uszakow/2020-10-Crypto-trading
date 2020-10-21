@@ -3,22 +3,22 @@
 .home-header-wrap {
     position: relative;
     overflow: hidden;
-    padding: 32px 20px 30px;
+    padding: px(32) px(20) px(30);
 }
 .home-header-content {
     width: 100%;
-    min-height: 520px;
+    min-height: px(520);
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 1800px;
+    max-width: px(1800);
     margin: auto;
 }
 
 @media (min-width: $sm) {
     .home-header-wrap {
-        padding: 80px 40px 30px;
+        padding: px(80) px(40) px(30);
     }
 }
 @media (min-width: $lg) {
@@ -31,6 +31,6 @@
 }
 @media (min-width: $max-width) {
     .home-header-content {
-        padding: 0 134px;
+        padding: 0 px(134);
     }
 }

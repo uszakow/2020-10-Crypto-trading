@@ -1,12 +1,17 @@
 @import "./../../variables";
 
-.menu {   
+.menu {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 24px 24px 18px 18px;   
-
+    padding: px(2) px(16);
+    margin: px(18) 0;
+    background-color: white;
+    z-index: 4;
+  
     @media (min-width: $xl) {
-        margin: 16px 136px;
+        padding: px(2) px(136);
     }
 }

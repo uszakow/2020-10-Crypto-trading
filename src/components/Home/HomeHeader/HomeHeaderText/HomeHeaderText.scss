@@ -3,13 +3,13 @@
 .home-header-title {
     font-weight: 700;
     color: white;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: px(24);
+    line-height: px(32);
     letter-spacing: 0.05em;
 }
 .home-header-label {
-    font-size: 14px;
-    line-height: 26px;
+    font-size: px(14);
+    line-height: px(26);
     color: white;
     opacity: 0.7;
 }
@@ -19,17 +19,17 @@
 
     input,
     button {
-        height: 48px;
+        height: px(48);
         width: 100%;
         border: 0;
-        border-radius: 25px;
-        margin: 8px 0;
+        border-radius: px(25);
+        margin: px(8) 0;
     }
     input {
-        padding: 13px 20px;
+        padding: px(13) px(20);
     }
     button {
-        font-size: 17px;
+        font-size: px(17);
         font-weight: 600;
         letter-spacing: 0.1em;
         background-color: #38a5db;
@@ -41,23 +41,23 @@
 
 @media (min-width: $md) {
     .home-header-title {
-        font-size: 40px;
-        line-height: 56px;
+        font-size: px(40);
+        line-height: px(56);
     }
     .home-header-label {
-        font-size: 18px;
+        font-size: px(18);
     }
     .home-header-form {
         flex-direction: row;
         background-color: white;
-        border-radius: 25px;
-        margin: 20px 0;
+        border-radius: px(25);
+        margin: px(20) 0;
         input,
         button {
             margin: 0;
         }
         button {
-            width: 154px;
+            width: px(154);
             letter-spacing: 0;
         }
     }

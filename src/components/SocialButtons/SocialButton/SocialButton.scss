@@ -1,26 +1,26 @@
 @import "./../../../variables";
 
 .socialbuttons-button {
-    width: 30px;
-    height: 30px;
-    margin: 5px;
+    width: px(30);
+    height: px(30);
+    margin: px(5);
     background-color: #63c7ff;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     img {
-        height: 15px;
+        height: px(15);
     }
 }
 
 @media (min-width: $md) {
     .socialbuttons-button {
-        width: 40px;
-        height: 40px;
-        margin: 8px;
+        width: px(40);
+        height: px(40);
+        margin: px(8);
         img {
-            height: 22px;
+            height: px(22);
         }
     }
 }

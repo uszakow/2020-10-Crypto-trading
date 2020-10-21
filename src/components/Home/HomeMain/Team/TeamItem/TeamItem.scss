@@ -5,16 +5,16 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 0 10px;
+    padding: 0 px(10);
     .home-teamitem-img {
-        width: 100px;
-        height: 100px;
+        width: px(100);
+        height: px(100);
         border-radius: 50%;
     }
     .home-teamitem-title {
-        font-size: 16px;
+        font-size: px(16);
         font-weight: 400;
-        line-height: 34px;
+        line-height: px(34);
         padding: 0;
         border: 0;
         margin: 0;
@@ -23,18 +23,18 @@
         cursor: pointer;
     }
     .home-teamitem-job {
-        font-size: 13px;
+        font-size: px(13);
         font-family: "Open Sans", sans-serif;
-        line-height: 18px;
+        line-height: px(18);
         color: #011226;
         opacity: 0.5;
-        margin-bottom: 8px;
+        margin-bottom: px(8);
     }
     .home-teamitem-shorttext {
-        font-size: 12px;
-        line-height: 18px;
+        font-size: px(12);
+        line-height: px(18);
         color: #45515f;
-        margin-bottom: 12px;
+        margin-bottom: px(12);
     }
     .home-teamitem-buttons{
         display: flex;

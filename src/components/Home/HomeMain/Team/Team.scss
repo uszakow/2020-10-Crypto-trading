@@ -1,38 +1,38 @@
 @import "./../../../../variables";
 
 .home-team-title {
-    font-size: 16px;
-    line-height: 34px;
-    letter-spacing: 12px;
+    font-size: px(16);
+    line-height: px(34);
+    letter-spacing: px(12);
     text-transform: uppercase;
     color: #1c1f83;
     text-align: center;
-    margin: 38px auto 20px;
+    margin: px(38) auto px(20);
 }
 .home-team-wrap {
     display: flex;
-    padding: 0 16px;
-    margin-bottom: 48px;
-    width: 170vw;
+    padding: 0 px(16);
+    margin-bottom: px(48);
+    width: 180vw;
     transform: translateX(0vw);
     transition: 0.5s;
 }
 .home-team-wrap.home-team-shift {
-    transform: translateX(-70vw);
+    transform: translateX(-80vw);
 }
 .home-teamwrap-controller {
     display: flex;
     justify-content: center;
-    margin: 32px 0;
+    margin: px(32) 0;
     input {
         display: none;
     }
     label {
-        width: 8px;
-        height: 8px;
+        width: px(8);
+        height: px(8);
         display: block;
         border-radius: 50%;
-        margin: 4px;
+        margin: px(4);
         background-color: #c4c4c4;
         cursor: pointer;
     }
@@ -51,8 +51,8 @@
 }
 @media (min-width: $lg) {
     .home-team-wrap {
-        padding: 0 40px;
-        margin-bottom: 88px;
+        padding: 0 px(40);
+        margin-bottom: px(88);
     }
     .home-teamwrap-controller {
         display: none;
@@ -66,6 +66,6 @@
 }
 @media (min-width: $max-width) {
     .home-team-wrap {
-        padding: 0 134px;
+        padding: 0 px(134);
     }
 }
