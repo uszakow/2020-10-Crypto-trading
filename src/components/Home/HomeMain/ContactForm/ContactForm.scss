@@ -1,0 +1,69 @@
+@import "./../../../../variables";
+
+.home-contactform-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #252b42;
+    color: white;
+    padding: 0 px(16);
+}
+.home-contactform-title {
+    font-weight: 400;
+    font-size: px(16);
+    line-height: px(32);
+    letter-spacing: px(12);
+    text-align: center;
+    text-transform: uppercase;
+    margin: px(88) auto px(26);
+}
+.home-contactform-text {
+    font-size: px(14);
+    line-height: px(18);
+    text-align: center;
+    max-width: px(340);
+    margin: 0 px(16) px(50);
+}
+.home-contactform-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: px(400);
+    padding: px(84) px(16) px(26);
+    border-radius: px(13);
+    margin-bottom: px(78);
+    background-color: #4250bf;
+    .home-input-text {
+        padding: 13px 20px;
+        border: none;
+        border-radius: px(25);
+        margin-bottom: px(24);
+    }
+    .home-input-specialoffers {
+        margin: px(14) 0 px(36);
+        label {
+            font-size: px(17);
+            line-height: px(21);
+            margin-left: px(8);
+        }
+    }
+    .home-contactform-submit {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        font-size: px(16);
+        line-height: px(22);
+        color: white;
+        background-color: #38a5db;
+        align-self: flex-start;
+        padding: px(12) px(28);
+        border: none;
+        border-radius: px(23);
+    }
+}
+
+@media (min-width: $md) {
+    .home-contactform-text {
+        font-size: px(18);
+        line-height: px(24);
+    }
+}

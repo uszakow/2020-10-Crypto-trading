@@ -19,7 +19,7 @@ function App() {
         <SocialButtons />
 
         <Switch>
-          <Route exact path="/"><Home /></Route>
+          <Route exact path="/" component={Home} />
           <Route path="/team">
             Team
         </Route>
