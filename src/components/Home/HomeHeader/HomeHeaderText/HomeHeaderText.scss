@@ -32,7 +32,7 @@
         font-size: px(17);
         font-weight: 600;
         letter-spacing: 0.1em;
-        background-color: #38a5db;
+        background-color: $blue;
         color: white;
         padding: 0;
         cursor: pointer;
@@ -62,8 +62,8 @@
         }
     }
 }
-@media (min-width: $lg){
-    .home-headertext-wrap{
+@media (min-width: $lg) {
+    .home-headertext-wrap {
         max-width: 40%;
     }
 }

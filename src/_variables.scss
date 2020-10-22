@@ -5,6 +5,9 @@ $lg: 992px;
 $xl: 1200px;
 $max-width: 1440px;
 
+//colors
+$blue: #38a5db;
+
 //function px to rem
 @function px($size) {
     @return ($size / 16) * 1rem;

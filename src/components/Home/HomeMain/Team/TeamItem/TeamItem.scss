@@ -18,13 +18,13 @@
         padding: 0;
         border: 0;
         margin: 0;
-        color: #38a5db;
+        color: $blue;
         background-color: transparent;
         cursor: pointer;
     }
     .home-teamitem-job {
-        font-size: px(13);
         font-family: "Open Sans", sans-serif;
+        font-size: px(13);
         line-height: px(18);
         color: #011226;
         opacity: 0.5;
@@ -36,7 +36,7 @@
         color: #45515f;
         margin-bottom: px(12);
     }
-    .home-teamitem-buttons{
+    .home-teamitem-buttons {
         display: flex;
     }
 }
