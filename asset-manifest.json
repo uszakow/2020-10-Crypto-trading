@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/2020-10-Crypto-trading/static/css/main.dafcbe76.chunk.css",
+    "main.js": "/2020-10-Crypto-trading/static/js/main.a4c25679.chunk.js",
+    "main.js.map": "/2020-10-Crypto-trading/static/js/main.a4c25679.chunk.js.map",
+    "runtime-main.js": "/2020-10-Crypto-trading/static/js/runtime-main.413514c0.js",
+    "runtime-main.js.map": "/2020-10-Crypto-trading/static/js/runtime-main.413514c0.js.map",
+    "static/js/2.0ab6c8e6.chunk.js": "/2020-10-Crypto-trading/static/js/2.0ab6c8e6.chunk.js",
+    "static/js/2.0ab6c8e6.chunk.js.map": "/2020-10-Crypto-trading/static/js/2.0ab6c8e6.chunk.js.map",
+    "index.html": "/2020-10-Crypto-trading/index.html",
+    "precache-manifest.fea34efa2fc7394022bcb6f942ee87c5.js": "/2020-10-Crypto-trading/precache-manifest.fea34efa2fc7394022bcb6f942ee87c5.js",
+    "service-worker.js": "/2020-10-Crypto-trading/service-worker.js",
+    "static/css/main.dafcbe76.chunk.css.map": "/2020-10-Crypto-trading/static/css/main.dafcbe76.chunk.css.map",
+    "static/js/2.0ab6c8e6.chunk.js.LICENSE.txt": "/2020-10-Crypto-trading/static/js/2.0ab6c8e6.chunk.js.LICENSE.txt",
+    "static/media/Muxia.mp4": "/2020-10-Crypto-trading/static/media/Muxia.dbe40f9a.mp4",
+    "static/media/background.png": "/2020-10-Crypto-trading/static/media/background.cbd2ffec.png",
+    "static/media/banks.png": "/2020-10-Crypto-trading/static/media/banks.bd114313.png",
+    "static/media/fb.svg": "/2020-10-Crypto-trading/static/media/fb.332e3393.svg",
+    "static/media/linkedin.svg": "/2020-10-Crypto-trading/static/media/linkedin.deddbf85.svg",
+    "static/media/martin.png": "/2020-10-Crypto-trading/static/media/martin.3be83869.png",
+    "static/media/morrison.png": "/2020-10-Crypto-trading/static/media/morrison.272fb3b6.png",
+    "static/media/parsons.png": "/2020-10-Crypto-trading/static/media/parsons.fb43339e.png",
+    "static/media/twitter.svg": "/2020-10-Crypto-trading/static/media/twitter.ed7defa9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.413514c0.js",
+    "static/js/2.0ab6c8e6.chunk.js",
+    "static/css/main.dafcbe76.chunk.css",
+    "static/js/main.a4c25679.chunk.js"
+  ]
+}
