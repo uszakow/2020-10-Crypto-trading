@@ -1,10 +1,12 @@
 import React from 'react';
 import './HomeButtonDown.scss';
 
+import { HashLink as Link } from 'react-router-hash-link';
+
 function HomeButtonDown() {
     return (
         <div className="home-buttondown">
-            <a href="#home-team-title"><span /></a>
+            <Link to="#home-team-title"><span /></Link>
         </div>
     )
 }
