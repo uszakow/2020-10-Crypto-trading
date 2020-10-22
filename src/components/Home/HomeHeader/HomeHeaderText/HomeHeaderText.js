@@ -15,7 +15,7 @@ function HomeHeaderText() {
         const date = new Date();
         const qs = require('qs');
         try {
-            await axios.post('http://localhost:3001/emails', qs.stringify({ [date]: email }));
+            await axios.post('https://crypto-trading-2020-10.herokuapp.com/emails', qs.stringify({ [date]: email }));
             setEmail('');
         } catch (e) {
             console.log(e);

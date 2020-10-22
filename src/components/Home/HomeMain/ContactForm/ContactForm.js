@@ -30,7 +30,7 @@ class ContactForm extends Component {
 
         const qs = require('qs');
         try {
-            await axios.post('http://localhost:3001/contacts', qs.stringify(this.state));
+            await axios.post('https://crypto-trading-2020-10.herokuapp.com/contacts', qs.stringify(this.state));
             this.setState({
                 name: '',
                 email: '',
