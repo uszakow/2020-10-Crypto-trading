@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d1d70bf437faecd49c36e5282ff6526",
+    "revision": "adc00ebd5a4eb07dcfc0df2af4f8b1f6",
     "url": "/2020-10-Crypto-trading/index.html"
   },
   {
-    "revision": "e27adeaace6d95a30d16",
-    "url": "/2020-10-Crypto-trading/static/css/main.dafcbe76.chunk.css"
+    "revision": "fb8f3a4677a05b7adfe0",
+    "url": "/2020-10-Crypto-trading/static/css/main.2289c460.chunk.css"
   },
   {
-    "revision": "bd415441a54c78f21580",
-    "url": "/2020-10-Crypto-trading/static/js/2.f545ad11.chunk.js"
+    "revision": "763423ef88bb89056657",
+    "url": "/2020-10-Crypto-trading/static/js/2.2610006d.chunk.js"
   },
   {
     "revision": "9b318b6fb13190fe82c0677e9264b3c7",
-    "url": "/2020-10-Crypto-trading/static/js/2.f545ad11.chunk.js.LICENSE.txt"
+    "url": "/2020-10-Crypto-trading/static/js/2.2610006d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e27adeaace6d95a30d16",
-    "url": "/2020-10-Crypto-trading/static/js/main.ff512f1f.chunk.js"
+    "revision": "fb8f3a4677a05b7adfe0",
+    "url": "/2020-10-Crypto-trading/static/js/main.1daf6a22.chunk.js"
   },
   {
     "revision": "e6ccb5a7de5cb007816d",

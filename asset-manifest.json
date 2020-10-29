@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/2020-10-Crypto-trading/static/css/main.dafcbe76.chunk.css",
-    "main.js": "/2020-10-Crypto-trading/static/js/main.ff512f1f.chunk.js",
-    "main.js.map": "/2020-10-Crypto-trading/static/js/main.ff512f1f.chunk.js.map",
+    "main.css": "/2020-10-Crypto-trading/static/css/main.2289c460.chunk.css",
+    "main.js": "/2020-10-Crypto-trading/static/js/main.1daf6a22.chunk.js",
+    "main.js.map": "/2020-10-Crypto-trading/static/js/main.1daf6a22.chunk.js.map",
     "runtime-main.js": "/2020-10-Crypto-trading/static/js/runtime-main.413514c0.js",
     "runtime-main.js.map": "/2020-10-Crypto-trading/static/js/runtime-main.413514c0.js.map",
-    "static/js/2.f545ad11.chunk.js": "/2020-10-Crypto-trading/static/js/2.f545ad11.chunk.js",
-    "static/js/2.f545ad11.chunk.js.map": "/2020-10-Crypto-trading/static/js/2.f545ad11.chunk.js.map",
+    "static/js/2.2610006d.chunk.js": "/2020-10-Crypto-trading/static/js/2.2610006d.chunk.js",
+    "static/js/2.2610006d.chunk.js.map": "/2020-10-Crypto-trading/static/js/2.2610006d.chunk.js.map",
     "index.html": "/2020-10-Crypto-trading/index.html",
-    "precache-manifest.a974039181e239a64a499e5215aeb8f7.js": "/2020-10-Crypto-trading/precache-manifest.a974039181e239a64a499e5215aeb8f7.js",
+    "precache-manifest.7e1bedc813c4cb28684187c6fd0170d3.js": "/2020-10-Crypto-trading/precache-manifest.7e1bedc813c4cb28684187c6fd0170d3.js",
     "service-worker.js": "/2020-10-Crypto-trading/service-worker.js",
-    "static/css/main.dafcbe76.chunk.css.map": "/2020-10-Crypto-trading/static/css/main.dafcbe76.chunk.css.map",
-    "static/js/2.f545ad11.chunk.js.LICENSE.txt": "/2020-10-Crypto-trading/static/js/2.f545ad11.chunk.js.LICENSE.txt",
+    "static/css/main.2289c460.chunk.css.map": "/2020-10-Crypto-trading/static/css/main.2289c460.chunk.css.map",
+    "static/js/2.2610006d.chunk.js.LICENSE.txt": "/2020-10-Crypto-trading/static/js/2.2610006d.chunk.js.LICENSE.txt",
     "static/media/Muxia.mp4": "/2020-10-Crypto-trading/static/media/Muxia.dbe40f9a.mp4",
     "static/media/background.png": "/2020-10-Crypto-trading/static/media/background.cbd2ffec.png",
     "static/media/banks.png": "/2020-10-Crypto-trading/static/media/banks.bd114313.png",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.413514c0.js",
-    "static/js/2.f545ad11.chunk.js",
-    "static/css/main.dafcbe76.chunk.css",
-    "static/js/main.ff512f1f.chunk.js"
+    "static/js/2.2610006d.chunk.js",
+    "static/css/main.2289c460.chunk.css",
+    "static/js/main.1daf6a22.chunk.js"
   ]
 }
