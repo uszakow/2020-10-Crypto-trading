@@ -44,4 +44,12 @@
 }
 
 @media (min-width: $sm) {
+    .faq-item {
+        margin-right: px(28);
+    }
+}
+@media (min-width: $md) {
+    .faq-item {
+        margin-right: px(40);
+    }
 }

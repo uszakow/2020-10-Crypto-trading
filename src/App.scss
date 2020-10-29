@@ -16,7 +16,9 @@
 }
 
 .page-wrap {
+    max-width: $max-width;
     padding: px(32) px(20) px(30);
+    margin: auto;
     h1 {
         font-weight: 600;
         font-size: px(24);
