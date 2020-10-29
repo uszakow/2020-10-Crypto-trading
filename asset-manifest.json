@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/2020-10-Crypto-trading/static/css/main.2289c460.chunk.css",
+    "main.css": "/2020-10-Crypto-trading/static/css/main.c54f0099.chunk.css",
     "main.js": "/2020-10-Crypto-trading/static/js/main.1daf6a22.chunk.js",
     "main.js.map": "/2020-10-Crypto-trading/static/js/main.1daf6a22.chunk.js.map",
     "runtime-main.js": "/2020-10-Crypto-trading/static/js/runtime-main.413514c0.js",
@@ -8,9 +8,9 @@
     "static/js/2.2610006d.chunk.js": "/2020-10-Crypto-trading/static/js/2.2610006d.chunk.js",
     "static/js/2.2610006d.chunk.js.map": "/2020-10-Crypto-trading/static/js/2.2610006d.chunk.js.map",
     "index.html": "/2020-10-Crypto-trading/index.html",
-    "precache-manifest.7e1bedc813c4cb28684187c6fd0170d3.js": "/2020-10-Crypto-trading/precache-manifest.7e1bedc813c4cb28684187c6fd0170d3.js",
+    "precache-manifest.7b1897e1c645e819a95fab79d32db263.js": "/2020-10-Crypto-trading/precache-manifest.7b1897e1c645e819a95fab79d32db263.js",
     "service-worker.js": "/2020-10-Crypto-trading/service-worker.js",
-    "static/css/main.2289c460.chunk.css.map": "/2020-10-Crypto-trading/static/css/main.2289c460.chunk.css.map",
+    "static/css/main.c54f0099.chunk.css.map": "/2020-10-Crypto-trading/static/css/main.c54f0099.chunk.css.map",
     "static/js/2.2610006d.chunk.js.LICENSE.txt": "/2020-10-Crypto-trading/static/js/2.2610006d.chunk.js.LICENSE.txt",
     "static/media/Muxia.mp4": "/2020-10-Crypto-trading/static/media/Muxia.dbe40f9a.mp4",
     "static/media/background.png": "/2020-10-Crypto-trading/static/media/background.cbd2ffec.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.413514c0.js",
     "static/js/2.2610006d.chunk.js",
-    "static/css/main.2289c460.chunk.css",
+    "static/css/main.c54f0099.chunk.css",
     "static/js/main.1daf6a22.chunk.js"
   ]
 }

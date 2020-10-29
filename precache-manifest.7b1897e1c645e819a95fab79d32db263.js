@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "adc00ebd5a4eb07dcfc0df2af4f8b1f6",
+    "revision": "e91088b0a4f01641a4c7fef1358af4a2",
     "url": "/2020-10-Crypto-trading/index.html"
   },
   {
-    "revision": "fb8f3a4677a05b7adfe0",
-    "url": "/2020-10-Crypto-trading/static/css/main.2289c460.chunk.css"
+    "revision": "522e4ddb01e583633079",
+    "url": "/2020-10-Crypto-trading/static/css/main.c54f0099.chunk.css"
   },
   {
     "revision": "763423ef88bb89056657",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/2020-10-Crypto-trading/static/js/2.2610006d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb8f3a4677a05b7adfe0",
+    "revision": "522e4ddb01e583633079",
     "url": "/2020-10-Crypto-trading/static/js/main.1daf6a22.chunk.js"
   },
   {
