@@ -29,7 +29,7 @@ function Home() {
             const getTeamFromServer = async () => {
                 const url = "https://crypto-trading-2020-10.herokuapp.com/team";
                 const res = await axios.get(url);
-
+                
                 setTeam(res.data)
             }
             getTeamFromServer();

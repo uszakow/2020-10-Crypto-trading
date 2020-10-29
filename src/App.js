@@ -12,6 +12,7 @@ import SocialButtons from './components/SocialButtons/SocialButtons';
 import Footer from './components/Footer/Footer';
 
 import Home from './components/Home/Home';
+import FAQ from './components/FAQ/FAQ';
 
 import PageInConstruction from './components/PageInConstruction/PageInConstruction';
 import Page404 from './components/Page404/Page404';
@@ -39,9 +40,7 @@ function App() {
             <Route path="/copiwriters">
               <PageInConstruction />
             </Route>
-            <Route path="/faq">
-              <PageInConstruction />
-            </Route>
+            <Route path="/faq" component={FAQ} />
             <Route path="/terms_of_use">
               <PageInConstruction />
             </Route>
