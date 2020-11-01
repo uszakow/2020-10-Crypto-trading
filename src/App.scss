@@ -23,12 +23,11 @@
         font-weight: 600;
         font-size: px(24);
         line-height: px(32);
-        color: #3947b6;
-        padding: 0;
+        color: $blue-dark;
         margin: 0;
-    }
+    }    
     a {
-        color: #3947b6;
+        color: $blue-dark;
     }
     a:hover {
         color: #252b42;

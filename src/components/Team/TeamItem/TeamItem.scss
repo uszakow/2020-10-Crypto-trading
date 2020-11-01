@@ -1,0 +1,26 @@
+@import "./../../../variables";
+
+.team-item {
+    margin: 20px 0;
+    &-img {
+        float: left;
+        margin: 0 20px 10px 0;
+        border: 5px solid #ced3e8;
+        border-radius: 20px;
+    }
+    &-title {
+        margin: 0 0 16px;
+        text-align: left;
+        color: #263396;
+    }
+    &-jobtitle {
+        color: #757780;
+    }
+    &-links {
+        color: #263396;
+        margin: 0;        
+    }
+    &-linksname {
+        font-weight: 600;
+    }
+}

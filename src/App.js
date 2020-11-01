@@ -12,7 +12,11 @@ import SocialButtons from './components/SocialButtons/SocialButtons';
 import Footer from './components/Footer/Footer';
 
 import Home from './components/Home/Home';
+import Team from './components/Team/Team';
 import FAQ from './components/FAQ/FAQ';
+import Copiwriters from './components/Copiwriters/Copiwriters';
+import TermsOfUse from './components/TermsOfUse/TermsOfUse';
+import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
 
 import PageInConstruction from './components/PageInConstruction/PageInConstruction';
 import Page404 from './components/Page404/Page404';
@@ -27,9 +31,7 @@ function App() {
         <div className="app-content">
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/team">
-              <PageInConstruction />
-            </Route>
+            <Route path="/team" component={Team} />
             <Route path="/contact">
               <PageInConstruction />
             </Route>
@@ -37,16 +39,10 @@ function App() {
             <Route path="/whitepaper">
               <PageInConstruction />
             </Route>
-            <Route path="/copiwriters">
-              <PageInConstruction />
-            </Route>
+            <Route path="/copiwriters" component={Copiwriters} />
             <Route path="/faq" component={FAQ} />
-            <Route path="/terms_of_use">
-              <PageInConstruction />
-            </Route>
-            <Route path="/privacy_policy">
-              <PageInConstruction />
-            </Route>
+            <Route path="/terms_of_use" component={TermsOfUse} />
+            <Route path="/privacy_policy" component={PrivacyPolicy} />
 
             <Route component={Page404} />
           </Switch>

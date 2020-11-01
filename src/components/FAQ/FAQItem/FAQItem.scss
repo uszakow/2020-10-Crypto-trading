@@ -11,7 +11,7 @@
         font-size: px(18);
         line-height: px(28);
         color: white;
-        background-color: #3947b6;
+        background-color: $blue-dark;
         padding: px(10) px(24);
         border-radius: px(12);
         margin: 0 0 5px;
@@ -35,7 +35,7 @@
         font-size: px(18);
         line-height: px(22);
         margin: 0;
-        transition: max-height 0.5s;
+        transition: max-height 1s;
     }
     &-content.faq-content-show {
         max-height: 100vh;
