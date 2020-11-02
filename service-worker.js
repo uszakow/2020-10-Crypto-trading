@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/2020-10-Crypto-trading/precache-manifest.7b1897e1c645e819a95fab79d32db263.js"
+  "/2020-10-Crypto-trading/precache-manifest.a6803b9066d633d49a6afd799dd67a84.js"
 );
 
 self.addEventListener('message', (event) => {
