@@ -10,7 +10,7 @@ function News() {
     useEffect(() => {
         try {
             const getNewsFromServer = async () => {
-                const url = "http://localhost:3001/news";
+                const url = "https://crypto-trading-2020-10.herokuapp.com/news";
                 const res = await axios.get(url);
 
                 setNewsArr(res.data);

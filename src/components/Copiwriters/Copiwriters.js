@@ -10,7 +10,7 @@ function Copiwriters() {
     useEffect(() => {
         try {
             const getDoc = async () => {
-                const url = "http://localhost:3001/text";
+                const url = "https://crypto-trading-2020-10.herokuapp.com/text";
                 const res = await axios.get(url);
 
                 setDoc(res.data);

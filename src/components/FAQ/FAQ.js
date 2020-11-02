@@ -10,8 +10,7 @@ function FAQ() {
     useEffect(() => {
         try {
             const getFaqArr = async () => {
-                // const url = "https://crypto-trading-2020-10.herokuapp.com/faq";
-                const url = "http://localhost:3001/faq";
+                const url = "https://crypto-trading-2020-10.herokuapp.com/faq";               
                 const res = await axios.get(url);
 
                 setFaq(res.data);

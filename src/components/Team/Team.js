@@ -10,7 +10,7 @@ function Team() {
     useEffect(() => {
         try {
             const getTeamFromServer = async () => {
-                const url = "http://localhost:3001/team";
+                const url = "https://crypto-trading-2020-10.herokuapp.com/team";
                 const res = await axios.get(url);
 
                 setTeam(res.data);

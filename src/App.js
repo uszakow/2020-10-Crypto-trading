@@ -13,6 +13,7 @@ import Footer from './components/Footer/Footer';
 
 import Home from './components/Home/Home';
 import Team from './components/Team/Team';
+import Contact from './components/Contact/Contact';
 import FAQ from './components/FAQ/FAQ';
 import Copiwriters from './components/Copiwriters/Copiwriters';
 import TermsOfUse from './components/TermsOfUse/TermsOfUse';
@@ -33,9 +34,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/team" component={Team} />
-            <Route path="/contact">
-              <PageInConstruction />
-            </Route>
+            <Route path="/contact" component={Contact} />
 
             <Route path="/news" component={News} />
             <Route path="/copiwriters" component={Copiwriters} />
