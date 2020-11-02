@@ -7,7 +7,7 @@ function DocItem({ item }) {
     return (
         <>
             <h2 className="docitem-title">{Object.keys(item)[0]}</h2>
-            <ol>
+            <ol className="docitem-list">
                 {arrLi.map((item, index) => (
                     <li key={index}>
                         {item}

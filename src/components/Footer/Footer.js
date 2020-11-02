@@ -16,7 +16,7 @@ function Footer() {
                     <h2>Contact us:</h2>
                     <a href="mailto:have@nicecoding.io">have@nicecoding.io</a>
                 </div>
-                <Link to="/whitepaper" className="footer-top-button">Read Whitepaper</Link>
+                <Link to="/news" className="footer-top-button">Read Last News</Link>
             </div>
             <div className="footer-bottom">
                 <div className="footer-bottom-item">

@@ -1,15 +1,16 @@
 @import "./../../../variables";
 
 .faq-item {
-    overflow: hidden;
     border-radius: px(12);
     margin: 5px 0;
     &-title {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-size: px(18);
-        line-height: px(28);
+        position: sticky;
+        top: 50px;
+        font-size: px(16);
+        line-height: px(20);
         color: white;
         background-color: $blue-dark;
         padding: px(10) px(24);
@@ -36,9 +37,10 @@
         line-height: px(22);
         margin: 0;
         transition: max-height 1s;
+        overflow-y: auto;
     }
     &-content.faq-content-show {
-        max-height: 100vh;
+        max-height: 1000vh;
         transition: max-height 2s;
     }
 }
@@ -46,6 +48,10 @@
 @media (min-width: $sm) {
     .faq-item {
         margin-right: px(28);
+        &-title {
+            font-size: px(18);
+            line-height: px(28);
+        }
     }
 }
 @media (min-width: $md) {

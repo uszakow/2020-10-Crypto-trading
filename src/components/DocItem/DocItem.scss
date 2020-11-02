@@ -6,10 +6,18 @@
     color: $blue-dark;
     margin: 20px 0 0;
     text-align: center;
+}
+.docitem-list {
+    padding-left: 20px;
+}
 
-    @media (min-width: $sm) {
+@media (min-width: $sm) {
+    .docitem-title {
         font-size: px(30);
         line-height: px(36);
         margin: 30px 0 0;
+    }
+    .docitem-list {
+        padding-left: 40px;
     }
 }

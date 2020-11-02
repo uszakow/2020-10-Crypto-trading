@@ -13,7 +13,7 @@ function TeamItem({ item }) {
             <h2 className="team-item-title">{name} {surname}</h2>
             <div className="team-item-jobtitle">{jobtitle}</div>
             <p>{fulltext}</p>
-            <h3 className="team-item-links">Links:</h3>
+            <h3 className="team-item-linkstitle">Links:</h3>
             {links.map((item, index) => (
                 <div key={index}>
                     <span className="team-item-linksname">{Object.keys(item)[0]}: </span>

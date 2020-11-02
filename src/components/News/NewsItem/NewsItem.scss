@@ -1,0 +1,15 @@
+@import "./../../../variables";
+
+.news-item-title {
+    font-size: px(18);
+    line-height: px(22);
+    color: $blue-dark;
+    margin: 0;
+}
+
+@media (min-width: $sm) {
+    .news-item-title {
+        font-size: px(22);
+        line-height: px(26);
+    }
+}

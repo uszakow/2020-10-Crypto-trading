@@ -17,6 +17,7 @@ import FAQ from './components/FAQ/FAQ';
 import Copiwriters from './components/Copiwriters/Copiwriters';
 import TermsOfUse from './components/TermsOfUse/TermsOfUse';
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
+import News from './components/News/News';
 
 import PageInConstruction from './components/PageInConstruction/PageInConstruction';
 import Page404 from './components/Page404/Page404';
@@ -36,9 +37,7 @@ function App() {
               <PageInConstruction />
             </Route>
 
-            <Route path="/whitepaper">
-              <PageInConstruction />
-            </Route>
+            <Route path="/news" component={News} />
             <Route path="/copiwriters" component={Copiwriters} />
             <Route path="/faq" component={FAQ} />
             <Route path="/terms_of_use" component={TermsOfUse} />
